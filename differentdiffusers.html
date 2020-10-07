@@ -1,0 +1,309 @@
+<!doctype html>
+<html>
+<head>
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel= "stylesheet" href= "css/different_styles.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+ 
+ <link href="https://fonts.googleapis.com/css2?family=Rufina&display=swap" rel="stylesheet">
+ <script src="javascript/diffuser.js"></script>
+ <script src="javascript/mobile.js"></script>
+<title>Different Diffusers</title>
+</head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+<body>
+  <div class= "content"> 
+
+ 
+    <div class="topnav" id="myTopnav">
+      <a href="index.html"  id="title">S A N C T U A R Y </a>
+      <a href="differentdiffusers.html"id="nondrop">LEARN </a>
+  
+      <div class="dropdown " id= "dropdown">
+        <button class="dropbtn"id= "dropdown">HOW TO 
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="howtocare.html">HOW TO TAKE CARE OF A DIFFUSER</a>
+          <a href="howtouse.html">HOW TO USE A DIFFUSER</a>
+
+        </div>
+      </div> 
+      <a href="welcome.html"id="nondrop" >OUR STORY</a>
+      <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+    </div>
+        <div class="image_background">
+
+
+
+
+           <h1 id ="welcome">DIFFERENT TYPES OF DIFFUSERS</h1>
+          </div>
+
+<!----
+
+
+          <div style="overflow:auto">
+            <div class="menu">
+              M E N U
+      <div class="menuitem">
+        <a href="howtouse.html" id="menuitem1">HOW TO USE A DIFFUSER</a>
+      </div>
+      <div class="menuitem">
+        <a href="howtocare.html" id="menuitem2" >HOW TO TAKE CARE OF A DIFFUSERS</a>
+      </div>
+      <div class="menuitem">
+        <a href="differentdiffusers.html"id="menuitem3" >DIFFERENT TYPES OF DIFFUSERS</a>
+      </div>
+      <div class="menuitem">
+        <a href="welcome.html"id="menuitem4" >WELCOME PAGE</a>
+      </div>
+      --->
+
+<!-- Trigger/Open The Modal -->
+<button class="ceramic" id="myBtn1">CERAMIC DIFFUSER</button>
+
+<!-- The Modal -->
+<div id="myModal1" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    
+<div class="main">
+    <p id= "title_" class= "main">Ceramic Diffuser</p>
+
+    <p id= "desc_" class= "main">A ceramic diffuser allows oils to evaporate and disperse into the air. A drop or two of essential oil can be placed onto the terra cotta or ceramic diffuser. 
+        These diffusers are good for personal use in a small area, but may not be ideal for large or outdoor areas.</p>
+      </div>
+      <div class="pic">
+        <img src="../Project1/images/diffuser.png" id="diffuser_pic" >
+      </div>
+        <span class="close1">Return</span>
+  </div>
+
+</div>
+  
+
+
+
+   <button class="ceramic" id="myBtn2">REED DIFFUSER</button>
+
+<!-- The Modal -->
+<div id="myModal2" class="modal">
+
+    <!-- Modal content -->
+    <div class="modal-content">
+ 
+      <p id= "title_">Reed Diffuser</p>
+      <p id= "desc_"> Reed diffusers often use rattan sticks, 
+          which have small channels that allow the essential oil to travel up the stick and scent the room.
+           Lighter oils (e.g. bergamot, grapefruit, or lemon essential oil) tend to diffuse faster than the heavier oils 
+           (base notes) such as patchouli and sandalwood essential oil.
+           <img src="../Project1/images/diffuser.png" id= "diffuser_pic">
+
+    </p>
+    <span class="close2">Return</span>
+    </div>
+    </div>
+
+
+
+<button class="ceramic" id="myBtn3">ELECTRIC DIFFUSER</button>
+
+<!-- The Modal -->
+<div id="myModal3" class="modal">
+
+    <!-- Modal content -->
+    <div class="modal-content">
+    <div class= "image">
+    </div>
+     <div class= "main">
+      <p id= "title_">Electric Diffuser</p>
+
+      <p id= "desc_"> 
+        Like ceramic and reed diffusers, electric fan diffusers expose essential oils to air without heat. 
+        Drops of the essential oil are added to a pad or to water.
+         An electric fan in the diffuser blows air at the pad or water, causing the oils to disperse into the air.
+         </p>
+         <img src="../Project1/images/diffuser.png" id= "diffuser_pic">
+
+        </div>
+
+         <span class="close3">Return</span>
+    </div>
+    </div>
+
+
+
+
+    <button class="ceramic" id="myBtn4">CANDLE DIFFUSER</button>
+
+<!-- The Modal -->
+<div id="myModal4" class="modal">
+
+    <!-- Modal content -->
+    <div class="modal-content">
+
+      <p id= "title_">  Candle Diffuser</p>
+      <p id= "desc_"> These diffusers heat the essential oil using 
+          the heat of a candle to promote diffusion throughout the room. 
+          Heat diffusers are a relatively inexpensive option for making a space smell nice, 
+          but they are not optimal when the therapeutic properties of the essential oil are desired as heat can change 
+          the chemical properties of the oil.</p>
+          <img src="../Project1/images/diffuser.png" id= "diffuser_pic">
+      <span class="close4">Return</span>
+    </div>
+
+    </div>
+    <script>
+      // Get the modal
+      var modal = document.getElementById("myModal1");
+      
+      // Get the button that opens the modal
+      var btn = document.getElementById("myBtn1");
+      
+      // Get the <span> element that closes the modal
+      var span = document.getElementsByClassName("close1")[0];
+      
+      // When the user clicks the button, open the modal 
+      btn.onclick = function() {
+        modal.style.display = "block";
+      }
+      
+      // When the user clicks on <span> (x), close the modal
+      span.onclick = function() {
+        modal.style.display = "none";
+      }
+      
+      // When the user clicks anywhere outside of the modal, close it
+      window.onclick = function(event) {
+        if (event.target == modal) {
+          modal.style.display = "none";
+        }
+      }
+           // Get the modal
+           var modal2 = document.getElementById("myModal2");
+      
+      // Get the button that opens the modal
+      var btn2 = document.getElementById("myBtn2");
+      
+      // Get the <span> element that closes the modal
+      var span2 = document.getElementsByClassName("close2")[0];
+      
+      // When the user clicks the button, open the modal 
+      btn2.onclick = function() {
+        modal2.style.display = "block";
+      }
+      
+      // When the user clicks on <span> (x), close the modal
+      span2.onclick = function() {
+        modal2.style.display = "none";
+      }
+      
+      // When the user clicks anywhere outside of the modal, close it
+      window.onclick = function(event) {
+        if (event.target == modal2) {
+          modal2.style.display = "none";
+        }
+      }
+                // Get the modal
+                var modal3 = document.getElementById("myModal3");
+      
+      // Get the button that opens the modal
+      var btn3 = document.getElementById("myBtn3");
+      
+      // Get the <span> element that closes the modal
+      var span3 = document.getElementsByClassName("close3")[0];
+      
+      // When the user clicks the button, open the modal 
+      btn3.onclick = function() {
+        modal3.style.display = "block";
+      }
+      
+      // When the user clicks on <span> (x), close the modal
+      span3.onclick = function() {
+        modal3.style.display = "none";
+      }
+      
+      // When the user clicks anywhere outside of the modal, close it
+      window.onclick = function(event) {
+        if (event.target == modal3) {
+          modal3.style.display = "none";
+        }
+      }
+
+       // Get the modal
+      var modal4 = document.getElementById("myModal4");
+      
+      // Get the button that opens the modal
+      var btn4= document.getElementById("myBtn4");
+      
+      // Get the <span> element that closes the modal
+      var span4= document.getElementsByClassName("close4")[0];
+      
+      // When the user clicks the button, open the modal 
+      btn4.onclick = function() {
+        modal4.style.display = "block";
+      }
+      
+      // When the user clicks on <span> (x), close the modal
+      span4.onclick = function() {
+        modal4.style.display = "none";
+      }
+      
+      // When the user clicks anywhere outside of the modal, close it
+      window.onclick = function(event) {
+        if (event.target == modal4) {
+          modal4.style.display = "none";
+        }
+      }
+      </script>
+  </div>
+ 
+         <div class= "subscribe">
+          <form action="thankyou.html">
+            <label for="email">
+              <p id= "list"> JOIN OUR MAILING LIST!</p>
+              <p id= "list_desc">Learn More About Diffusers!</p>
+            </label>
+
+            <input type="text"  class="button_" id="email" name="firstname" placeholder="Email">
+            <input type="submit"  class= "button_" value="Subscribe" id= "button">
+          </form>
+
+        </div>
+        <div class="footer">
+          <h3 id= "footer_title">S A N C T U A R Y</h3>
+          <p > CUSTOMER CARE</p>
+          <p class= "line"> </p>
+           <div class="nav1">
+     <div class= "row1">
+      <p id= "footer_nav_title">  OUR STORY</p>
+          <a href="index.html"  id= "footer_nav" ><p >WELCOME</p></a>
+          </div>
+         <div class= "row1">
+          <p id= "footer_nav_title"> HOW  TO </p>
+          <a href="howtouse.html"  id= "footer_nav" ><p>HOW  TO USE A DIFFUSER</p></a>
+         <a href="howtocare.html"  id= "footer_nav" ><p >HOW  TO TAKE CARE OF A DIFFUSER </p></a>
+          </div>
+          <div class= "row1">
+            <p id= "footer_nav_title">  LEARN</p>
+          <a href="differentdiffusers.html"  id= "footer_nav" > <p>DIFFERENT TYPES OF DIFFUSERS</p></a>
+        </div>
+      
+     
+      </div>
+      <p id= "reserved">© 2020 All Rights Reserved</p>
+      </div>
+    </div>
+
+try to add these lines at the end of the file
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>
